@@ -821,7 +821,7 @@
 }
 .cardCopy{font-size:16px;line-height:1.55;letter-spacing:0}
 .cardLabel{font-size:12px;letter-spacing:.12em}
-@media(min-width:701px){.stage{height:clamp(560px,39vw,700px)}.photo img{object-position:50% 25%}}
+@media(min-width:701px){.stage{height:clamp(560px,39vw,700px)}.photo img{object-position:50% 2%}}
 @media(max-width:700px){.copy h2{line-height:.92}.cardCopy{font-size:16px;line-height:1.5}.cardLabel{font-size:12px}.cta{font-size:14px;white-space:normal}.photo img{object-position:50% 35%}}
 .root { --author-paper: #f4f0eb; --author-ink: #292321; --author-muted: #6d635f; background: linear-gradient(180deg, #ebe3da, #f4f0eb 72%, #f9f6f0); }
 .photo { background: #d3c8bc; }

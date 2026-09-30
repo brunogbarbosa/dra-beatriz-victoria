@@ -8,7 +8,7 @@
 
 .campaign { position: relative; isolation: isolate; height: 100svh; min-height: 740px; max-height: 1100px; overflow: hidden; background: #211d1b; color: #f7f3ee; }
 .campaign::before, .campaign::after { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; }
-.campaign::before { background: linear-gradient(90deg, #171411 0%, #191613f5 22%, #1e1a18c9 34%, #211c1970 43%, transparent 58%), linear-gradient(180deg, #17141130, transparent 42%, #171411b5 100%); }
+.campaign::before { background: linear-gradient(90deg, #171411 0%, #191613f5 25%, #1e1a18d9 34%, #211c1970 43%, transparent 52%), linear-gradient(180deg, #17141130, transparent 42%, #171411b5 100%); }
 .campaign::after { background: radial-gradient(ellipse at 80% 38%, transparent 38%, #18151326 100%); }
 .campaign-portrait { position: absolute; z-index: 0; inset: 0 0 0 40%; pointer-events: none; }
 .campaign-silhouette { position: absolute; inset: 0; overflow: hidden; }
@@ -49,6 +49,13 @@
   .campaign-copy { width: 67%; }
   .campaign h1 { font-size: clamp(66px, 8.5vw, 104px); }
   .campaign-editorial { display: none; }
+}
+@media (min-width: 701px) {
+  .campaign-portrait {
+    left: 28%;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 29%);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 29%);
+  }
 }
 @media (max-width: 700px) {
   .header:not(.scrolled) { height: 86px; padding-inline: 6%; }
