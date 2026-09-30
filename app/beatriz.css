@@ -1,0 +1,18 @@
+/* Beatriz Victória — graphite, warm ivory, espresso and soft champagne. */
+.essence-editorial { background: #f3eee8; }
+.essence-values { background: #e8ddd3; }
+.essence-value { background: #faf7f2d9; border-color: #ffffffa8; }
+.essence-value-icon { background: #d9c5b3; color: #2b2421; }
+.essence-editorial-description, .essence-value p { color: #71635d; }
+.gallery-chapter, .closing-chapter, .footer, .result-dialog { background: #211b1a; }
+.gallery-photo, .comparison { background: #322926; }
+.gallery-heading p, .footer-main > div { color: #e0d4ca; }
+.ritual-chapter { background: #f3eee8; }
+.social-chapter { background: #e8ddd3; }
+.closing-chapter { background: radial-gradient(circle at 80% 20%, #493630, #211b1a 58%); }
+.menu-dialog { background: #f3eee8; }
+.viewer-note { color: #d6bca6; }
+@media (max-width: 700px) {
+  .gallery-heading p { max-width: 30rem; }
+  .gallery-photo { aspect-ratio: .88; }
+}
